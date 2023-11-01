@@ -1,0 +1,52 @@
+Nesta última fase, você juntamente com sua equipe irão implementar e validar o protótipo de um sistema web. Como se trata de um protótipo, devem ser escolhidos para implementação pela equipe de 2 a 3 requisitos funcionais do projeto, desenvolvido na fase 2, atendendo às seguintes condições:
+
+Todos os 2 ou 3 requisitos selecionados pela equipe devem estar implementados e devem ser funcionais no protótipo entregue.
+Além de funcional, o protótipo deve estar validado, ou seja, executando conforme especificado no projeto.
+O protótipo deve ser implementado com arquitetura web cliente-servidor.
+O processo do lado do servidor deve ser escrito em linguagem PHP, que executa um servidor web e acessa um servidor de banco de dados.
+O processo do lado do cliente precisa executar em um navegador, com interface intuitiva e validação dos dados de entrada.
+Por fim, o protótipo precisa persistir, recuperar, alterar e excluir dados de banco de dados, ou seja, executar um CRUD simples:
+create (feito com o comando SQL Insert);
+read (feito com o comando Select);
+update (feito com o comando Update);
+delete (feito com o comando Delete).
+Todas essas seis condições permitem o exercício das tecnologias vistas até agora, em uma aplicação Web mínima.
+
+Para auxiliar as equipes, existe um conjunto de materiais de apoio para consulta, inclusive com um exemplo completo de protótipo, equivalente àquele que as equipes devem entregar.
+
+Adicionalmente, a arquitetura cliente-servidor deve ser feita no ambiente de desenvolvimento XAMPP (pacote com servidores Apache e MySQL, para PHP). O link para esse pacote gratuito também está no material de apoio.
+
+Importante: com o XAMPP, o protótipo pode executar em máquina local, sem necessidade de um site para hospedagem. Dicas de instalação e implantação do exemplo de protótipo no material de apoio. Recomendamos que as equipes utilizem a configuração equivalente para seu protótipo.
+
+Sobre condição 6 do protótipo: no exemplo, foi utilizado um framework responsivo de estilos CSS, o W3.CSS, da w3Schools, que facilita a criação de interfaces, e dispõe de diferentes modelos de site (os templates do W3.CSS). Outra questão importante é que as equipes devem validar os dados de entrada nos formulários dos seus protótipos. Recomenda-se o uso dos recursos do HTML 5, tag “input”, com o atributo “pattern”, que utiliza expressões regulares. Referências no nosso material de apoio.
+
+Por fim, editor gratuito Notepad++ é uma ferramenta adequada para escrever todo o código do protótipo das equipes.
+
+Em resumo
+
+Segue cronograma de implementação com as atividades que devem ser executadas nestas 2 semanas:
+
+Desenvolver um padrão de interface (HTML+PHP+JavaScript+CSS) para os requisitos escolhidos, com imagens, padrão de cores, botões, links, favicons, menus, etc.
+Implementar o padrão de validação dos campos de entrada, nor formulários, para entrada de dados do usuário.
+Criar a base de dados no MySQL, o usuário de acesso à base e as tabelas de pelo menos um requisito funcional.
+Inserir pelo menos 2 registros nas tabelas criadas.
+Verificar o acesso à base de dados e tabelas a partir de um navegador, e apresentar os registros já existentes nas tabelas criadas no próprio navegador.
+Quando a equipe conseguir realizar essa primeira etapa, a arquitetura da aplicação mostrará que está instalada e configurada adequadamente, permitindo a continuação da implementação dos demais requisitos funcionais.
+
+Um membro da equipe (o líder) deve entregar os arquivos pelo Blackboard, para que o professor-tutor possa verificar.
+
+
+
+
+
+
+
+Nessa semana, agora que você e sua equipe receberam feedback do professor-tutor sobre a etapa I da fase 3, é hora de executar a finalização da implementação inicial de back-end e front-end. É o momento de realizar  ajustes para garantir a operacionalização do back e front-ends.
+
+O padrão de interface (HTML+PHP+JavaScript+CSS) para o protótipo do Sistema Web deve estar finalizado: navegação, imagens, cores, botões, links, favicons, menus, etc. devem ter sido testados e validados.
+A validação dos campos de entrada, para todos os formulários, deve estar funcional.
+Base de dados e usuário de acesso à base devem estar operacionais.
+Todas as tabelas dos requisitos funcionais escolhidos devem estar criadas de forma completa: com chave primária (PK) e integridade referencial correta (FK de chave estrangeira).
+O acesso à base de dados e tabelas a partir de um navegador deve estar funcional.
+Em anexo você encontra os critérios que o professor-tutor irá utilizar para realizar a correção final e avaliar seu protótipo. Utilize o arquivo de acordo com a proposta que você e sua equipe estão criando, com 2 ou 3 requisitos.
+Um membro da equipe (o líder) deve entregar os arquivos pelo Blackboard, para que o professor-tutor possa verificar.
